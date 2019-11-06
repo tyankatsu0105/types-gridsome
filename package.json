@@ -29,16 +29,11 @@
     "shipjs": "^0.8.1",
     "typescript": "^3.6.4"
   },
-  "files": [
-    "./index.d.ts"
-  ],
+  "files": ["./index.d.ts"],
   "publishConfig": {
     "access": "public"
   },
   "lint-staged": {
-    "*.{md,js}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{md,js}": ["prettier --write", "git add"]
   }
 }
