@@ -1,6 +1,6 @@
 {
   "name": "@tyankatsu0105/types-gridsome",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "💙Types for `gridsome.server.js` and `gridsome.client.js`.",
   "homepage": "https://github.com/tyankatsu0105/types-gridsome#readme",
   "bugs": {
