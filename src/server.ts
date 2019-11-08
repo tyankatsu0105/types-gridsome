@@ -34,7 +34,7 @@ interface Actions {
 
   /**
    * Get a collection previously created.
-   * @param typeName The GraphQL schema type name.
+   * @param typeName - The GraphQL schema type name.
    */
   getCollection(typeName: string): void;
 
