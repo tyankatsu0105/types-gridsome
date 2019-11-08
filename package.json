@@ -1,6 +1,6 @@
 {
   "name": "@tyankatsu0105/types-gridsome",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "💙Types for `gridsome.server.js` and `gridsome.client.js`.",
   "homepage": "https://github.com/tyankatsu0105/types-gridsome#readme",
   "bugs": {
@@ -12,13 +12,24 @@
   },
   "license": "MIT",
   "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.netlify.com/)",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "compile": "tsc -d --emitDeclarationOnly",
-    "commit": "git-cz",
     "precommit": "run-s compile lint-staged",
+    "commit": "git-cz",
+    "compile": "tsc -d --emitDeclarationOnly",
     "lint-staged": "lint-staged",
     "release:prepare": "shipjs prepare",
-    "release:trigger": "shipjs trigger"
+    "release:trigger": "shipjs trigger",
+    "watch": "tsc -w -d --emitDeclarationOnly"
+  },
+  "lint-staged": {
+    "*.{md,ts}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
@@ -29,11 +40,7 @@
     "shipjs": "^0.8.1",
     "typescript": "^3.6.4"
   },
-  "files": ["./index.d.ts"],
   "publishConfig": {
     "access": "public"
-  },
-  "lint-staged": {
-    "*.{md,js}": ["prettier --write", "git add"]
   }
 }
