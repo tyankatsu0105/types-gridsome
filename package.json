@@ -23,7 +23,9 @@
     "lint-staged": "lint-staged",
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
-    "watch": "tsc -w -d --emitDeclarationOnly"
+    "watch": "tsc -w -d --emitDeclarationOnly",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "echo \"Error: not need build\" && exit 0"
   },
   "lint-staged": {
     "*.{md,ts}": [
