@@ -3,7 +3,7 @@
 
 interface Collection {
   /**
-   *
+   * Add node to collection.
    * @param object - Custom fields.
    */
   addNode(object: { [k: string]: any }): void;
