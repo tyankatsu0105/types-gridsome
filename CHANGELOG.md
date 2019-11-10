@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.1.3...v0.2.0) (2019-11-10)
+
+
+### Features
+
+* **schema:** add type Schema API ([570f417](https://github.com/tyankatsu0105/types-gridsome/commit/570f4176a35b6addcf5c25daef7f4e76eaad13a3)), closes [#3](https://github.com/tyankatsu0105/types-gridsome/issues/3)
+
+
+
 ## [0.1.3](https://github.com/tyankatsu0105/types-gridsome/compare/v0.1.2...v0.1.3) (2019-11-08)
 
 
