@@ -1,3 +1,7 @@
+## [0.1.3](https://github.com/tyankatsu0105/types-gridsome/compare/v0.1.2...v0.1.3) (2019-11-08)
+
+
+
 ## [0.1.2](https://github.com/tyankatsu0105/types-gridsome/compare/v0.1.0...v0.1.2) (2019-11-08)
 
 
