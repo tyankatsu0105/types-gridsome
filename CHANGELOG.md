@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.2.0...v0.3.0) (2019-11-11)
+
+
+### Features
+
+* **pages:** add types Pages API ([57e2893](https://github.com/tyankatsu0105/types-gridsome/commit/57e28937359f2377b546c8371a9087d31318fc9c)), closes [#4](https://github.com/tyankatsu0105/types-gridsome/issues/4)
+
+
+
 # [0.2.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.1.3...v0.2.0) (2019-11-10)
 
 
