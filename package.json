@@ -45,5 +45,15 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "@types/express-serve-static-core": "^4.16.11",
+    "@types/webpack": "^4.39.8",
+    "webpack-chain": "^6.0.0"
+  },
+  "dependencies": {
+    "@types/express-serve-static-core": "^4.16.11",
+    "@types/webpack": "^4.39.8",
+    "webpack-chain": "^6.0.0"
   }
 }
