@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.3.0...v0.4.0) (2019-11-12)
+
+
+### Features
+
+* **server:** add Server API ([4a065e0](https://github.com/tyankatsu0105/types-gridsome/commit/4a065e00493c8a36eefad745491ce57ab71f0250)), closes [#1](https://github.com/tyankatsu0105/types-gridsome/issues/1)
+
+
+
 # [0.3.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.2.0...v0.3.0) (2019-11-11)
 
 

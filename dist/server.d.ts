@@ -1,3 +1,6 @@
+import { Configuration as WebpackConfiguration } from 'webpack';
+import * as ChainWebpackConfiguration from 'webpack-chain';
+import { Express as ExpressConfiguration } from "express-serve-static-core";
 interface Collection {
     /**
      * Add node to collection.
@@ -202,6 +205,48 @@ interface ServerApi {
      * @param callback
      */
     createManagedPages(callback: (options: createManagedPagesActioons) => void): void;
+    /**
+     * Configure the internal webpack config.
+     * The object will be merged with the internal config if it is an object.
+     *
+     * If the option is a function, it will get the internal config as its first argument.
+     * You can either modify the argument or return a new config object that will override the internal webpack config.
+     * @param callback
+     *
+     * @example
+     * api.configureWebpack((config) => {
+     *  config.debug = true
+     * })
+     *
+     * @example
+     * const merge = require('webpack-merge')
+     * const baseConfig = require('./webpack.config.base.js')
+     * api.configureWebpack(config => {
+     *  return merge(baseConfig, config)
+     * })
+     */
+    configureWebpack(callback: (config: WebpackConfiguration) => void): void;
+    /**
+     * A function that will receive an instance of ChainableConfig powered by [webpack-chain](https://github.com/neutrinojs/webpack-chain).
+     * @param callback
+     *
+     * @example
+     * chainWebpack((config) => {
+     *  config.mode('development')
+     * })
+     */
+    chainWebpack(callback: (config: ChainWebpackConfiguration) => void): void;
+    /**
+     * Gridsome runs an [Express](http://expressjs.com/) server during development.
+     * Use this hook to add custom endpoints or configure the server.
+     * @param callback
+     */
+    configureServer(callback: (app: ExpressConfiguration) => void): void;
+    /**
+     * Set custom options for the client. Will use options from the plugin entry if not used.
+     * @param options - Any value which can be serialized by `JSON.stringify`.
+     */
+    setClientOptions(options: any): void;
 }
 export declare type Server = (api: ServerApi) => void;
 export {};
