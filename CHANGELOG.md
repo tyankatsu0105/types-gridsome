@@ -1,3 +1,19 @@
+## [0.4.1](https://github.com/tyankatsu0105/types-gridsome/compare/v0.4.0...v0.4.1) (2019-11-13)
+
+
+### Features
+
+* **schema:** support GraphQLSchema ([3c2d3d1](https://github.com/tyankatsu0105/types-gridsome/commit/3c2d3d1f2f563da35d2767fd04b883d415df1244)), closes [#22](https://github.com/tyankatsu0105/types-gridsome/issues/22)
+
+
+### Performance Improvements
+
+* **data store:** separate Datastore API ([4f38544](https://github.com/tyankatsu0105/types-gridsome/commit/4f38544c50e9b178ed6dac8e705329ac0f64a57b))
+* **pages:** separate Pages API ([06adf52](https://github.com/tyankatsu0105/types-gridsome/commit/06adf528c5b064fcf3c4ffc3718e7d5679b90f3e))
+* **schema:** separate Schema API ([f1c5845](https://github.com/tyankatsu0105/types-gridsome/commit/f1c5845c85a308cb16f5b6d3132b8b5853174734))
+
+
+
 # [0.4.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.3.0...v0.4.0) (2019-11-12)
 
 
