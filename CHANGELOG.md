@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.4.1...v0.5.0) (2019-11-13)
+
+
+### Features
+
+* **client:** add Client API ([6c60135](https://github.com/tyankatsu0105/types-gridsome/commit/6c60135e36e7804111a0c471b0ef528ac9982e4f)), closes [#5](https://github.com/tyankatsu0105/types-gridsome/issues/5)
+
+
+
 ## [0.4.1](https://github.com/tyankatsu0105/types-gridsome/compare/v0.4.0...v0.4.1) (2019-11-13)
 
 
