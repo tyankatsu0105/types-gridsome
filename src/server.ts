@@ -1,6 +1,7 @@
 import { Configuration as WebpackConfiguration } from "webpack";
 import * as ChainWebpackConfiguration from "webpack-chain";
 import { Express as ExpressConfiguration } from "express-serve-static-core";
+import { GraphQLSchema } from "graphql";
 
 interface Collection {
   /**
@@ -111,7 +112,7 @@ interface Schema {
    * }))
    * @param schema - Required
    */
-  addSchema(schema: any): void;
+  addSchema(schema: GraphQLSchema): void;
 
   schema: FactoryMethods;
 }
