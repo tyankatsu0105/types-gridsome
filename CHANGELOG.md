@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.5.0...v0.6.0) (2019-11-14)
+
+
+### Features
+
+* **config:** support config ([a19d2ec](https://github.com/tyankatsu0105/types-gridsome/commit/a19d2ecaf24fc7ee940aea0c14f11163e0c99fc3)), closes [#21](https://github.com/tyankatsu0105/types-gridsome/issues/21)
+
+
+
 # [0.5.0](https://github.com/tyankatsu0105/types-gridsome/compare/v0.4.1...v0.5.0) (2019-11-13)
 
 
