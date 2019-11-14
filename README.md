@@ -2,7 +2,7 @@
 
 <h2 align="center">Types Gridsome</h2>
 <p align="center">
-  💙Types for <code>gridsome.server.js</code> and <code>gridsome.client.js</code>. <br> <a href="https://gridsome.org/" rel="nofollow">Gridsome</a>
+  💙Types for <code>gridsome.server.js</code>, <code>gridsome.client.js</code> and <code>gridsome.config.js</code>. <br> <a href="https://gridsome.org/" rel="nofollow">Gridsome</a>
 </p>
 <p align="center">
   <a title="Current version" href="https://www.npmjs.com/package/@tyankatsu0105/types-gridsome" rel="nofollow">
@@ -20,13 +20,25 @@
 
 ![demo](https://raw.githubusercontent.com/tyankatsu0105/types-gridsome/master/assets/demo.png)
 
-> 🚧Anntention:  
-> If Gridsome was refactored with TypeScript, this package is unnecessary for you :)
+Support Gridsome `v.0.7.10`.  
+Please PR when Gridsome is updated✌️
+
+## Usage
+
+```bash
+npm install @tyankatsu0105/types-gridsome -D
+```
 
 ```js
+// gridsome.server.js
 /** @type import('@tyankatsu0105/types-gridsome').Server */
 
 module.exports = api => {
   // ...
 };
 ```
+
+Please check [example](https://github.com/tyankatsu0105/types-gridsome/tree/develop/example).
+
+> 💁‍♂️Anntention:  
+> If Gridsome was refactored with TypeScript, this package is unnecessary for you :)
