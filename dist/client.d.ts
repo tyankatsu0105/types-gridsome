@@ -1,6 +1,6 @@
-import { VueConstructor } from 'vue';
-import VueRouter from 'vue-router';
-import { MetaInfo } from 'vue-meta';
+import { VueConstructor } from "vue";
+import VueRouter from "vue-router";
+import { MetaInfo } from "vue-meta";
 interface ClientOptions {
     /**
      * Options passed to the main Vue Instance like `new Vue(appOptions)`.
